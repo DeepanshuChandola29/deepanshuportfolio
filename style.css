@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bar{
+    background-color: black;
+}
+.name {
+
+    color: white ;
+    font-weight: 500;
+    font-family: "Times New Roman"
+}
+.name:hover{
+    color: white;
+    font-weight: 700;
+}
+#home{
+    text-decoration: none;
+color: white;
+margin-left: 50px;
+    
+}
+#home:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.link{
+    color: aliceblue;
+    margin-left: 50px;
+}
+.link:hover{
+        color: white;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#dropdown{
+    color: white;
+    margin-left: 50px;
+}
+#dropdown:hover{
+    color: white;
+    font-weight: bolder;
+}
+.dropdownmenu{
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.option{
+    color: white;
+}
+.option:hover{
+    background-color: rgb(168, 169, 170);
+    border-radius: 10px;
+}
+.searchbtn{
+    color: rgb(7, 194, 4);
+    border-radius: 20px;
+}
+.searchbtn:hover{
+    background-color:rgb(7, 194, 4) ;
+    color: white;
+}
