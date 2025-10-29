@@ -122,3 +122,40 @@ h3{
     color: rgb(182, 181, 181);
     margin-left: 170px;
 }
+.linkdin{
+    color: white;
+    font-size: 30px;
+    margin-left: 170px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.instagram{
+    color: white;
+    font-size: 30px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.github{
+    color: white;
+    font-size: 30px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.twitter{
+    color: white;
+    font-size: 30px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.linkdin:hover{
+    color: rgb(134, 133, 133);
+}
+.instagram:hover {
+    color: rgb(134, 133, 133);
+}
+.github:hover {
+    color: rgb(134, 133, 133);
+}
+.twitter:hover{
+    color: rgb(134, 133, 133);
+}
