@@ -3,8 +3,17 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Hide scroll bar */
+}
 .bar{
     background-color: black;
+    position: fixed;
+    width: 100%;
+
 }
 .name {
 
@@ -80,7 +89,7 @@ img{
 }
 .HOME{
     height: 575px;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(1, 35, 79);
     padding-top: 1px;
 
@@ -159,3 +168,27 @@ h3{
 .twitter:hover{
     color: rgb(134, 133, 133);
 }
+.socialmediapost{
+    /* height: 700px; */
+    height: 100%;
+    width: 100vw;
+    background-color: #874F36;
+}
+.socialmediapost h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans';
+}
+.row{
+    margin-top: 60px;
+}
+.img1{
+    border-radius: 0px;
+    margin-top: 10px;
+}
+.img2{
+    border-radius: 0px;
+    margin-top: 30px;
+    }
