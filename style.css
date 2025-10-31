@@ -83,6 +83,7 @@ img{
 }
 .image{
     margin-top: 130px;
+    animation-delay: 1.3s;
 }
 .main{
     padding: 1%;
@@ -115,14 +116,14 @@ img{
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 2px;
-    border-top-left-radius: 2px;
-    
+    border-top-left-radius: 2px;   
 }
 h4{
     margin-left: 205px;
     color: rgb(182, 181, 181);
     font-size: small;
     margin-top: 6px;
+    animation-delay: 0.8s;
     
 
 
@@ -130,6 +131,7 @@ h4{
 h3{
     color: rgb(182, 181, 181);
     margin-left: 170px;
+    animation-delay: 1.3s;
 }
 .linkdin{
     color: white;
@@ -142,13 +144,13 @@ h3{
     color: white;
     font-size: 30px;
     margin-left: 25px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 .github{
     color: white;
     font-size: 30px;
     margin-left: 25px;
-    cursor: pointer;
+    cursor: pointer;    
 }
 .twitter{
     color: white;
@@ -172,7 +174,7 @@ h3{
     /* height: 700px; */
     height: 100%;
     width: 100vw;
-    background-color: #874F36;
+    background-color: #1D546C;
 }
 .socialmediapost h1{
     color: white;
@@ -180,6 +182,8 @@ h3{
     align-items: center;
     justify-content: center;
     font-family: 'Gill Sans';
+    font-weight: bolder;
+    padding-top: 20px;
 }
 .row{
     margin-top: 60px;
@@ -192,3 +196,18 @@ h3{
     border-radius: 0px;
     margin-top: 30px;
     }
+    .logo{
+    /* height: 700px; */
+    height: 100%;
+    width: 100vw;
+    background-color: #83c3eb;
+}
+.logo h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans';
+    color: white;
+    font-weight: bolder;
+    padding-top: 20px;
+}
